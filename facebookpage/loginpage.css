@@ -1,0 +1,132 @@
+body{
+    margin: 0;
+    background-color: #f0f2f5;
+}
+input{
+    font-family: "Sofia", sans-serif;
+}
+.header{
+    width: 100%;
+    height: 100px;
+    background-color: #3b5998;
+}
+.logo{
+    width: 50px;
+    padding-top: 31px;
+    float: left;
+    /* background-color: bisque; */
+}
+.login{
+    margin-top: 25px;
+    width: 39%;
+    float: right;
+}
+.logo-text{
+    color: #fff;
+    margin-top: 5px;
+    font-size: 39px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 161px;
+    font-family:  Helvetica Neue,Helvetica, sans-serif;
+}
+
+
+/* content section */
+.main-body{
+    background-color: #f0f2f5;
+}
+.left-section{
+    /* padding-left: 233px; */
+    width: 799px;
+    float: left;
+    height: 400px;
+    /* background-color: bisque; */
+}
+.right-section{
+    float: left;
+    width: 427px;
+    height: 400px;
+    /* background-color: rgb(196, 241, 255); */
+}
+.login-label{
+    color: white;
+}
+.left-section img{
+    width: 681px;
+    height: 283px;
+    margin-left: 165px;
+}
+.left-section p{
+    FONT-SIZE: 21PX;
+    FONT-WEIGHT: bold;
+    left: 21px;
+    margin-left: 200px;
+    font-family: "Sofia", sans-serif;
+}
+.firstname{
+    width: 210px;
+    float: left;
+}
+.lastname{
+    width: 118px;
+    float: left;
+   
+}
+.firstname input{
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+    text-decoration: none;
+    font-size: 16px;
+    /* margin-top: 1px; */
+    margin-bottom: 23px;
+}
+.lastname input{
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+    text-decoration: none;
+    font-size: 16px;
+    /* margin-top: 1px; */
+    margin-bottom: 23px;
+}
+.numb{
+    height: 42px;
+    border-radius: 5px;
+    border: none;
+    text-decoration: none;
+    font-size: 16px;
+    /* margin-top: 1px; */
+    margin-bottom: 17px;
+    width: 403px;
+}
+.date{
+    height: 29px;
+    border-radius: 5px;
+    border: none;
+    text-decoration: none;
+    font-size: 16px;
+}
+.create-form label{
+    font-size: 16px;
+    font-family: sans-serif;
+    color: gray;
+    font-weight: bold;
+}
+.checkbox-round {
+    width: 1.3em;
+    height: 1.3em;
+    background-color: white;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 1px solid #ddd;
+    appearance: none;
+    -webkit-appearance: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.checkbox-round:checked {
+    background-color: gray;
+}
